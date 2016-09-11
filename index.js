@@ -11,8 +11,7 @@ Page({
     wx.login({
       success: function () {
         wx.getUserInfo({
-          complete:function(res){
-            console.log(res.userInfo)
+          success: function (res) {
             that.setData({userInfo: res.userInfo})
             that.update()
           }

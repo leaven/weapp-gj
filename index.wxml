@@ -6,6 +6,9 @@
   </view>
 
   <view>
-    <text>hello, world</text>
+    
+    <navigator url="logs">
+      <button type="primary">查看应用启动日志</button>
+    </navigator>
   </view>
 </view>

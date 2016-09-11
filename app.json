@@ -1,6 +1,7 @@
 {
   "pages":[
-    "index"
+    "index",
+    "logs"
   ],
   "window":{
     "backgroundTextStyle":"light",

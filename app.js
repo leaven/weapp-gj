@@ -1,6 +1,8 @@
 //app.js
 App({
   onLaunch: function () {
-    console.log('app launch')
+    var logs = wx.getStorageSync('logs') || []
+    logs.push(Date.now())
+    wx.setStorageSync('logs', logs)
   }
 })
