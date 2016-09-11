@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Web Plus",
+    "navigationBarTextStyle":"black"
+  }
+}
