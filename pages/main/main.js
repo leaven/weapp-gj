@@ -1,8 +1,13 @@
 var app = getApp()
 Page({
   data: {
-    greeting: 'hello, world',
+    motto: '',
     userInfo: {}
+  },
+  onButtonTap: function() {
+    this.setData({
+      motto: 'hello, world'
+    })
   },
   onLoad: function () {
     console.log('onLoad')
