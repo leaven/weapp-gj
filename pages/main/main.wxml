@@ -5,11 +5,6 @@
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
   <view>
-    <text>{{motto}}</text>
-  </view>
-  <view>
-    <navigator url="../logs/logs">
-      <button type="primary">查看应用启动日志</button>
-    </navigator>
+    <text class="user-motto">{{motto}}</text>
   </view>
 </view>

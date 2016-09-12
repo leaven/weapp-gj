@@ -1,12 +1,12 @@
 var app = getApp()
 Page({
   data: {
-    motto: '',
+    motto: 'Hello WeApp',
     userInfo: {}
   },
   onButtonTap: function() {
-    this.setData({
-      motto: 'hello, world'
+    wx.navigateTo({
+      url: '../logs/logs'
     })
   },
   onLoad: function () {
