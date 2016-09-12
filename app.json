@@ -1,12 +1,12 @@
 {
   "pages":[
-    "pages/main/main",
+    "pages/index/index",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Web Plus",
+    "navigationBarTitleText": "WeApp",
     "navigationBarTextStyle":"black"
   }
 }
