@@ -5,7 +5,7 @@
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
   <view>
-    <navigator url="logs">
+    <navigator url="../logs/logs">
       <button type="primary">查看应用启动日志</button>
     </navigator>
   </view>
