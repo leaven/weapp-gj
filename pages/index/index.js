@@ -21,7 +21,6 @@ Page({
       that.setData({
         userInfo:userInfo
       })
-      that.update()
     })
   }
 })
