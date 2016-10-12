@@ -2,9 +2,16 @@
 App({
   onLaunch: function () {
     //调用API从本地缓存中获取数据
+    console.log('onLaunch');
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
+  },
+  onShow: function() {
+    console.log('onShow');
+  },
+  onHide: function() {
+    console.log('onHide');
   },
   getUserInfo:function(cb){
     var that = this;
